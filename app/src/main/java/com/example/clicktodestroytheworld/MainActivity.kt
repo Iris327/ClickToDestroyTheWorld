@@ -3,6 +3,7 @@ package com.example.clicktodestroytheworld
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.*
+import java.io.File
 
 class MainActivity : AppCompatActivity() {
     var score = 0 //keeps track of player score
@@ -29,6 +30,7 @@ class MainActivity : AppCompatActivity() {
         incrementBtn?.setOnClickListener() {
             score++
             scoreText.text = score.toString()
+            storyText.text = File("storyFile.txt").readText()
         }
     }
 }

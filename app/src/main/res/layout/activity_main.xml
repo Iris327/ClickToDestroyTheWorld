@@ -46,14 +46,12 @@
 
     <TextView
         android:id="@+id/storyText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_width="364dp"
+        android:layout_height="203dp"
         android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
         android:layout_marginRight="32dp"
-        android:text="A voice tells you, go ahead...Click...
-plus a really long text to delete later it's just testing idk what to write so i'm just
-milking it really"
+        android:text="A voice tells you, go ahead...Click..."
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/incrementButton"
         app:layout_constraintEnd_toEndOf="parent"
